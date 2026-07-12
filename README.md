@@ -9,4 +9,18 @@
 
 ## 現在の状態
 
-計画段階であり、ソースコードは未作成。詳細な技術スタック・想定フォルダ構成は [CLAUDE.md](CLAUDE.md) を参照。
+初回データ（`index.html` / `css/style.css` / `js/app.js` / `data/gourmet.json`）を実装済み。詳細な技術スタック・フォルダ構成は [CLAUDE.md](CLAUDE.md) を参照。
+
+## 実行方法
+
+`js/app.js` が `data/gourmet.json` を `fetch` で読み込む都合上、`index.html` を直接ブラウザで開く（`file://`）と読み込みに失敗する場合がある。ローカルサーバー経由で開くこと。
+
+```bash
+python3 -m http.server 8000
+```
+
+起動後、ブラウザで以下にアクセスする。
+
+```
+http://localhost:8000/index.html
+```
