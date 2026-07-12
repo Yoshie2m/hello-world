@@ -1,2 +1,12 @@
 # hello-world
-A simple static website for Hello World project.
+
+名古屋グルメの情報を整理・発信する静的Webサイト。
+
+## 概要
+
+- フロントエンドのみ（HTML5 / CSS3 / バニラJS）で完結する構成
+- サーバーサイドの機能は使わず、静的ホスティングを想定
+
+## 現在の状態
+
+計画段階であり、ソースコードは未作成。詳細な技術スタック・想定フォルダ構成は [CLAUDE.md](CLAUDE.md) を参照。

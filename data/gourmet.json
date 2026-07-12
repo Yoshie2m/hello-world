@@ -1,0 +1,121 @@
+[
+  {
+    "id": "nagoya-001",
+    "gourmetName": "ひつまぶし",
+    "shopName": "あつた蓬莱軒 松坂屋店",
+    "category": "うなぎ",
+    "area": "栄・矢場町",
+    "tags": ["定番", "高級", "行列店"],
+    "description": "創業明治6年の老舗。秘伝のタレで焼き上げた香ばしい鰻を、3通りの食べ方で贅沢に楽しめます。",
+    "howToEat": "1杯目はそのまま、2杯目は薬味を添えて、3杯目はお出汁をかけてお茶漬けでどうぞ。",
+    "imageUrl": "images/hitsumabushi.jpg",
+    "priceRange": {
+      "lunch": "4,000円〜5,000円",
+      "dinner": "4,000円〜6,000円"
+    },
+    "access": "地下鉄名城線「矢場町駅」地下通路直結",
+    "mapUrl": "https://google.com..."
+  },
+  {
+    "id": "nagoya-002",
+    "gourmetName": "元祖手羽先唐揚げ",
+    "shopName": "世界の山ちゃん 本店",
+    "category": "居酒屋",
+    "area": "栄・伏見",
+    "tags": ["コスパ", "おつまみ", "駅チカ"],
+    "description": "ピリッと辛い胡椒の刺激と秘伝のタレがクセになる、名古屋名物手羽先の超有名チェーンです。",
+    "howToEat": "手羽先の関節をポキッと折ると、身が綺麗に抜けて食べやすくなります。",
+    "imageUrl": "images/tebasaki.jpg",
+    "priceRange": {
+      "lunch": "営業なし",
+      "dinner": "2,000円〜3,000円"
+    },
+    "access": "地下鉄東山線「栄駅」13番出口から徒歩5分",
+    "mapUrl": "https://google.com..."
+  },
+  {
+    "id": "nagoya-003",
+    "gourmetName": "味噌カツ",
+    "shopName": "とん八",
+    "category": "とんかつ",
+    "area": "鶴舞・STATION Ai周辺",
+    "tags": ["定食", "名古屋めし", "駅チカ"],
+    "description": "岡崎八丁味噌を使い、化学調味料を一切使わない自家製味噌だれが自慢の味噌カツ専門店。STATION Aiのある鶴舞エリアで長く愛される定食屋です。",
+    "howToEat": "看板の味噌かつ定食は、甘辛い味噌だれとやわらかい肉質のバランスが絶妙。ご飯・味噌汁と一緒にどうぞ。",
+    "imageUrl": "images/misokatsu_tonpachi.jpg",
+    "priceRange": {
+      "lunch": "1,250円〜2,250円",
+      "dinner": "営業なし（2026年6月22日より昼営業のみ）"
+    },
+    "access": "地下鉄鶴舞線「鶴舞駅」6番出口から徒歩5分",
+    "mapUrl": "https://google.com..."
+  },
+  {
+    "id": "nagoya-004",
+    "gourmetName": "味噌カツ・串カツ",
+    "shopName": "かつみや 鶴舞分店",
+    "category": "とんかつ",
+    "area": "鶴舞・STATION Ai周辺",
+    "tags": ["コスパ", "名古屋めし", "串カツ"],
+    "description": "三河もち豚と厳選味噌でつくる秘伝の味噌だれが自慢。ランチの味噌カツ定食から、夜は一本から頼める串カツまで幅広く楽しめます。",
+    "howToEat": "ランチは三河もち豚ロースカツ定食がおすすめ。夜は串カツを1本単位でつまみながら、秘伝の味噌だれをたっぷりつけて。",
+    "imageUrl": "images/misokatsu_katsumiya.jpg",
+    "priceRange": {
+      "lunch": "850円〜1,380円",
+      "dinner": "串カツ1本132円〜／単品330円〜"
+    },
+    "access": "地下鉄鶴舞線・JR中央線「鶴舞駅」から徒歩3〜4分",
+    "mapUrl": "https://google.com..."
+  },
+  {
+    "id": "nagoya-005",
+    "gourmetName": "牡蠣塩ラーメン",
+    "shopName": "むかん STATION Ai店",
+    "category": "ラーメン",
+    "area": "鶴舞・STATION Ai",
+    "tags": ["新店", "フードコート", "行列店"],
+    "description": "東京で人気の牡蠣塩ラーメン専門店がSTATION Ai 1Fフードコートに初上陸。濃厚な牡蠣だしのスープが評判です。",
+    "howToEat": "看板の牡蠣塩ラーメンに味玉をトッピングした「味玉牡蠣塩ラーメン」が定番人気。スープがなくなり次第終了なので早めの来店がおすすめ。",
+    "imageUrl": "images/mukan_ramen.jpg",
+    "priceRange": {
+      "lunch": "1,000円前後",
+      "dinner": "営業なし（11:00〜16:00頃、売り切れ次第終了）"
+    },
+    "access": "STATION Ai 1Fフードコート内（地下鉄鶴舞線「鶴舞駅」から徒歩約6分）",
+    "mapUrl": "https://google.com..."
+  },
+  {
+    "id": "nagoya-006",
+    "gourmetName": "ベトナム料理（フォー・バインミー）",
+    "shopName": "オハヨーサイゴン 鶴舞店",
+    "category": "エスニック",
+    "area": "鶴舞・STATION Ai",
+    "tags": ["ランチセット", "フードコート", "新店"],
+    "description": "久屋大通の人気店の姉妹店として2024年10月にSTATION Ai 1Fにオープン。ベトナム中部・南部の郷土料理を気軽に楽しめます。",
+    "howToEat": "ランチタイムはA〜Jの10種類から選べるセットがお得。サイドメニューとデザート付きでフォーやバインミーを味わえます。",
+    "imageUrl": "images/ohayo_saigon.jpg",
+    "priceRange": {
+      "lunch": "1,000円前後（セット）",
+      "dinner": "1,500円〜2,500円"
+    },
+    "access": "STATION Ai 1F（地下鉄鶴舞線「鶴舞駅」から徒歩約6分）",
+    "mapUrl": "https://google.com..."
+  },
+  {
+    "id": "nagoya-007",
+    "gourmetName": "天丼・カツ丼",
+    "shopName": "丼物語",
+    "category": "丼もの",
+    "area": "鶴舞・STATION Ai",
+    "tags": ["コスパ", "セルフオーダー", "フードコート"],
+    "description": "STATION Ai 1Fフードコート内にある丼専門店。タッチパネルでのセルフオーダー制で、天丼やカツ丼、ネギトロ丼などを気軽に楽しめます。",
+    "howToEat": "会計はタッチパネルでの先払いセルフ方式。番号を呼ばれたらカウンターで受け取るスタイルなので、ひとりでもサッと利用できます。",
+    "imageUrl": "images/donmonogatari.jpg",
+    "priceRange": {
+      "lunch": "999円以下",
+      "dinner": "999円以下（11:00〜21:00、LO20:30）"
+    },
+    "access": "STATION Ai 1Fフードコート内（地下鉄鶴舞線「鶴舞駅」から徒歩約6分）",
+    "mapUrl": "https://google.com..."
+  }
+]
