@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>名古屋グルメ図鑑</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>名古屋グルメ図鑑</h1>
+  <p class="site-header__lead">名古屋の名物グルメ・お店をまとめて紹介します。</p>
+</header>
+
+<main>
+  <section class="filters" aria-label="絞り込み">
+    <input type="search" id="search-input" placeholder="グルメ名・店名で検索">
+    <select id="category-select">
+      <option value="">すべてのジャンル</option>
+    </select>
+    <select id="area-select">
+      <option value="">すべてのエリア</option>
+    </select>
+  </section>
+
+  <p id="result-count" class="result-count"></p>
+
+  <section id="gourmet-list" class="gourmet-list" aria-live="polite"></section>
+
+  <p id="empty-message" class="empty-message" hidden>該当するグルメが見つかりませんでした。</p>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 名古屋グルメ図鑑</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

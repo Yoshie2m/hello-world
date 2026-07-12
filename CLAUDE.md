@@ -28,3 +28,12 @@ data/
 ```
 
 `app.js` は `data/gourmet.json` を読み込み、その内容を `index.html` に描画する想定。HTMLにコンテンツを直書きせず、データ（JSON）と描画ロジック（JS）を分離すること。
+
+## Python利用時の注意
+
+リポジトリ直下に仮想環境 `.venv` が用意されている。ローカルサーバー起動やブラウザ動作確認用ツール（Playwright等）の導入・実行など、Pythonを使う作業は必ずこの `.venv` を有効化した上で行い、システム／グローバルのPython環境に対して `pip install` 等を行わないこと。
+
+```
+source .venv/bin/activate
+```
+

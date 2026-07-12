@@ -1,0 +1,141 @@
+:root {
+  --color-bg: #fdf6ee;
+  --color-text: #2b2119;
+  --color-accent: #d9522a;
+  --color-card-bg: #ffffff;
+  --color-border: #e6d9c8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.site-header {
+  padding: 2rem 1.5rem 1rem;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0 0 0.5rem;
+  color: var(--color-accent);
+}
+
+.site-header__lead {
+  margin: 0;
+  color: #665a4d;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.filters input,
+.filters select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+#search-input {
+  flex: 1 1 240px;
+}
+
+.result-count {
+  margin: 0 0 1rem;
+  color: #7a6c5d;
+  font-size: 0.9rem;
+}
+
+.gourmet-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.gourmet-card {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.gourmet-card__image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: var(--color-bg);
+}
+
+.gourmet-card__name {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.gourmet-card__shop {
+  margin: 0;
+  color: #7a6c5d;
+  font-size: 0.9rem;
+}
+
+.gourmet-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.gourmet-card__tags li {
+  background: #f3e6d8;
+  color: var(--color-accent);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.75rem;
+}
+
+.gourmet-card__description {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.gourmet-card__meta {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #7a6c5d;
+}
+
+.empty-message {
+  text-align: center;
+  color: #7a6c5d;
+  padding: 2rem 0;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #a89880;
+  font-size: 0.8rem;
+}
